@@ -1,0 +1,32 @@
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# macOS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# Compiled files
+*.exe
+*.obj
+*.o
+*.out
+
+# Build folders
+build/
+bin/
+Debug/
+Release/
+
+# IDE workspace (optional)
+# *.code-workspace

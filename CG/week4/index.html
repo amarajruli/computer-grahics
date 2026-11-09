@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Robot Arm</title>
+<style>
+  body { margin: 0; overflow: hidden; background: #0b0d17; }
+  #info {
+    position: fixed; top: 14px; left: 14px; color: #e8ecff;
+    font: 13px/1.6 'Segoe UI', sans-serif;
+    background: rgba(20, 24, 45, .65); backdrop-filter: blur(6px);
+    padding: 12px 16px; border-radius: 10px; border: 1px solid rgba(255,255,255,.12);
+  }
+  #info b { color: #7fd4ff; font-family: monospace; }
+</style>
+</head>
+<body>
+<div id="info">
+  <b>A / D</b> rotate base<br>
+  <b>W / S</b> shoulder up / down<br>
+  <b>← / →</b> elbow<br>
+  <b>↑ / ↓</b> wrist<br>
+  <b>Q / E</b> open / close fingers<br>
+  <b>Mouse</b> orbit camera
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
